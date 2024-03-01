@@ -1,1 +1,6 @@
 <p>cart works!</p>
+
+<p>This cart is for {{ userSignal().name }}</p>
+<p>Cart Total: {{ totalCart() }}</p>
+
+<button (click)="addItem()">ADD ITEM 100$ TO CART</button>
